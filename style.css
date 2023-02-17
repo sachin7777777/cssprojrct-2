@@ -9,6 +9,11 @@
     font-style: bold;
     font-weight: 600;
 }
+#button{
+    background-color: skyblue;
+    position: relative;
+    left: 440px;
+}
 .firsttext{
     position: absolute;
     left: 80px;
@@ -31,11 +36,6 @@
 .sachin{
     position: relative;
     left: 10px;
-}
-#button{
-    background-color: skyblue;
-    position: relative;
-    left: 440px;
 }
 .plussign{
     background-color: rgb(50, 186, 239);
@@ -160,6 +160,9 @@ a{
 }
 
 @media screen and (min-width:300px) and (max-width:490px) {
+     .none{
+        display: none;
+    }
     .container{
         flex-direction:row;
         flex-wrap:wrap;
@@ -171,9 +174,7 @@ a{
     .button{
         text-align:left;
     }
-    .none{
-        display: none;
-    }
+   
     .back{
         margin-left: 20px;
     }
