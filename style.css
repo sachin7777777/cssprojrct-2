@@ -28,8 +28,14 @@
     height: 100px;
     padding-right: 90px;
 }
+.sachin{
+    position: relative;
+    left: 10px;
+}
 #button{
     background-color: skyblue;
+    position: relative;
+    left: 440px;
 }
 .plussign{
     background-color: rgb(50, 186, 239);
@@ -165,6 +171,9 @@ a{
     .button{
         text-align:left;
     }
+    .none{
+        display: none;
+    }
     .back{
         margin-left: 20px;
     }
@@ -195,7 +204,7 @@ a{
     }
     .button{
         position: absolute;
-        left: 240px;
+        left: 160px;
         top: 110px;
     }
 }
